@@ -39,3 +39,14 @@ to AppKernel.php
 * `sudo chmod -R ug+rw web/files`
 
 Replace www-data with whatever user/group you want to use.
+
+### 4. Routing
+
+Add
+
+```
+xi_filelib:
+    resource: "@XiFilelibBundle/Resources/config/routing.yml"
+    prefix: /
+```
+to app/config/routing.yml
