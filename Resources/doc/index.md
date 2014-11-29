@@ -26,7 +26,9 @@ to AppKernel.php
 ### 2. Create required directories
 
 * app/data/files
+
 * app/data/temp
+
 * web/files
 
 ### 3. Set proper file permissions
