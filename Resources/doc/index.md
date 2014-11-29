@@ -40,3 +40,4 @@ to AppKernel.php
 * `sudo chmod -R ug+rw web/files`
 
 Replace www-data with whatever user/group you want to use.
+
