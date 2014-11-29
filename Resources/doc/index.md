@@ -31,6 +31,6 @@ to AppKernel.php
 
 ### 3. Set proper file permissions
 
-sudo chown -R www-data app/data/files
-sudo chown -R www-data app/data/temp
-sudo chown -R www-data web/files
+`sudo chown -R www-data app/data/files`
+`sudo chown -R www-data app/data/temp`
+`sudo chown -R www-data web/files`
