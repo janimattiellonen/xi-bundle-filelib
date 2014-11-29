@@ -26,13 +26,11 @@ to AppKernel.php
 ### 2. Create required directories
 
 * app/data/files
-
 * app/data/temp
-
 * web/files
 
 ### 3. Set proper file permissions
 
-`sudo chown -R www-data app/data/files`
-`sudo chown -R www-data app/data/temp`
-`sudo chown -R www-data web/files`
+* `sudo chown -R www-data app/data/files`
+* `sudo chown -R www-data app/data/temp`
+* `sudo chown -R www-data web/files`
