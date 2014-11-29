@@ -34,3 +34,5 @@ to AppKernel.php
 * `sudo chown -R www-data app/data/files`
 * `sudo chown -R www-data app/data/temp`
 * `sudo chown -R www-data web/files`
+
+Replace www-data with whatever user the webserver runs as.
