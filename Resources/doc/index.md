@@ -31,8 +31,8 @@ to AppKernel.php
 
 ### 3. Set proper file permissions
 
-* `sudo chown -R www-data app/data/files`
-* `sudo chown -R www-data app/data/temp`
-* `sudo chown -R www-data web/files`
+* `sudo chown -R www-data:www-data app/data/files`
+* `sudo chown -R www-data:www-data app/data/temp`
+* `sudo chown -R www-data:www-data web/files`
 
-Replace www-data with whatever user the webserver runs as.
+Replace www-data with whatever user/group you want to use.
