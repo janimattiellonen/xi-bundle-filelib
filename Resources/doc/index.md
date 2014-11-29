@@ -35,4 +35,8 @@ to AppKernel.php
 * `sudo chown -R www-data:www-data app/data/temp`
 * `sudo chown -R www-data:www-data web/files`
 
+* `sudo chmod -R ug+rw app/data/files`
+* `sudo chmod -R ug+rw app/data/temp`
+* `sudo chmod -R ug+rw web/files`
+
 Replace www-data with whatever user/group you want to use.
