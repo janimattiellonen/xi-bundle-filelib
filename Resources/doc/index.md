@@ -13,3 +13,9 @@ Add the following lines to your composer.json file:
 then run
 
 `php composer.phar update`
+
+Add
+
+`new \Xi\Bundle\FilelibBundle\XiFilelibBundle()`
+
+to AppKernel.php
