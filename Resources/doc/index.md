@@ -50,3 +50,15 @@ xi_filelib:
     prefix: /
 ```
 to app/config/routing.yml
+
+### 5. Create Database tables
+
+XiFilelibBundle currently support:
+
+* MariaDB/Mysql
+* PostgreSQL
+* sqlite
+
+Currently there are no tools for this and you must generate them yourself.
+
+You can find the schemas in vendor/xi/filelib/docs.
