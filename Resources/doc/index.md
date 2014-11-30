@@ -62,3 +62,13 @@ XiFilelibBundle currently support:
 Currently there are no tools for this and you must generate them yourself.
 
 You can find the schemas in vendor/xi/filelib/docs.
+
+## Configuration
+
+[XiFilelib](https://github.com/xi-project/xi-filelib) is highly configurable and with XiBundleFilelib the settings are easily configurable through `app/config/config.yml`.
+
+In more advanced situations you can also override custom implementations with your own.
+
+## Example
+
+You can use [Xi Filelib Symfony sandbox](https://github.com/xi-project/xi-filelib-symfony-sandbox) for setting up a very simple Symfony 2 project which shows some of the XiBundleFilelib features and use it for further explorations of XiBundleFilelib.
