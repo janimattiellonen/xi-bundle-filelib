@@ -3,3 +3,4 @@ composer.phar
 Tests/phpunit.xml
 /vendor/
 nbproject/
+.idea
