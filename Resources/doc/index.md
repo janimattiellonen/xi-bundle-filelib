@@ -71,6 +71,16 @@ In more advanced situations you can also override custom implementations with yo
 
 ## Usage
 
+### Backend
+
+The controller `FileController` provides a simple mechanism to render paths to specified file.
+
+The heart of Filelib is its class Xi\Filelib\FileLibrary which should, by default, be used as an access point.
+
+#### Uploading files
+
+Use `Filelib::uploadFile(string|Xi\Filelib\File\Upload\FileUpload)` to upload files. For default functionality, only the file is required.
+
 ### Templates
 
 XiBundleFilelib provides a couple of Twig functions for easy access to images and files.
